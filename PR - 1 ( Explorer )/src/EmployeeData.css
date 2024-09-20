@@ -1,0 +1,49 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-top: 60px;
+}
+
+.employee-header {
+  background-color: #009879;
+  color: white;
+  padding: 25px;
+  border-radius: 8px 8px 0 0;
+  text-align: center;
+}
+
+.employee-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.employee-card {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.employee-card h3 {
+  margin-top: 5px;
+  margin: 0;
+  color: #fff;
+}
+
+.employee-card p {
+  margin: 8px 0;
+}
+
+.employee-card strong {
+  color: #555;
+}
