@@ -1,0 +1,101 @@
+body {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOski4WtAs7tTSptab743BurAb2RFFR2ZZYA&s');
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f1f1f1;
+  font-weight: bold;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+.btn1{
+  background-color: #28a745;
+  color: white;
+}
+
+ .btn2 {
+  background-color: #dc3545;
+  color: white;
+}
+
+tr {
+  text-align: center;
+}
+
+td:last-child {
+  text-align: center;
+}
+
+input[type="text"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+thead th:last-child {
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+tbody td:last-child {
+  width: 50px;
+}
