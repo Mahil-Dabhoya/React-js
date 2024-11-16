@@ -1,0 +1,71 @@
+body {
+    background-image: url('https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&w=300');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Arial', sans-serif;
+  }
+
+.table {
+    background-color: #fff;
+    border-collapse: collapse;
+    
+}
+.table th, .table td {
+    padding: 15px;
+    border: 1px solid #ddd;
+}  
+.table th {
+    background-color: #4caf50; 
+    color: white;
+}  
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+  
+button {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out;
+    border-radius: 10px 20px;
+    box-shadow: 5px 5px 2px #345643;
+}
+  
+button:hover {
+    transform: scale(1.05); 
+    outline: none;
+}
+th button.btn{
+    color: white ;
+}
+  
+input[type="text"], input[type="email"], input[type="password"], input[type="date"], select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+input[type="checkbox"] {
+    transform: scale(1.2);
+    margin: 10px;
+}
+  
+label {
+    font-weight: bold;
+    color: #330000 ;
+}
+  
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px #345643; 
+}
