@@ -1,0 +1,26 @@
+/* Axios.css */
+
+.custom-card {
+    background-color: #262626;
+    border: 1px solid #444;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.custom-card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.9rem;
+}
+
+.text-info {
+    font-size: 1rem;
+}
