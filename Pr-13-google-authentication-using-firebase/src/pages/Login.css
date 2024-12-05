@@ -1,0 +1,80 @@
+/* Login.css */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #4caf50, #81c784);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.login-card {
+    background: #ffffff;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+    width: 350px;
+}
+
+.login-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.login-subtitle {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.login-button {
+    background: #ffffff;
+    border: 2px solid #4285f4;
+    border-radius: 8px;
+    color: #4285f4;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: background 0.3s, color 0.3s;
+    width: 100%;
+}
+
+.login-button:hover {
+    background: #4285f4;
+    color: #ffffff;
+}
+
+.google-logo {
+    width: 20px;
+    height: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #4285f4;
+    font-weight: bold;
+    margin-top: 15px;
+    display: inline-block;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #2c6bd9;
+}

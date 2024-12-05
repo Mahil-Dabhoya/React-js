@@ -1,7 +1,7 @@
 import { getDatabase, onValue, ref, remove } from 'firebase/database';
 import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { app } from '../../firebase';
+import { app } from '../firebase';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const View = () => {

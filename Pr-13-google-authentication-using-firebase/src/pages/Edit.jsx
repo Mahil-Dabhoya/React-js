@@ -1,5 +1,5 @@
 import { getDatabase, ref, update } from "firebase/database";
-import { app } from "../../firebase.js";
+import { app } from "../firebase.js";
 import { useEffect, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
