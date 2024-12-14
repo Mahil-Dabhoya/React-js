@@ -1,0 +1,23 @@
+/* Navbar styling */
+.navbar {
+    background-color: #00bfff;
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  /* Navbar links */
+  .navbar-link {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover effect for links */
+  .navbar-link:hover {
+    color: #0033cc;
+  }
+  
